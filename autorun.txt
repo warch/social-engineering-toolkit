@@ -1,0 +1,5 @@
+setoolkit <<< echo "y" && echo "1" && echo "2" && echo "3" && echo "2" && echo "docker.warchsoft.com" && echo "https://facebook.com" && echo "y"
+
+
+
+printf "y\n1\n2\n3\n2\ndocker.warchsoft.com\nhttps://facebook.com\ny" | setoolkit
