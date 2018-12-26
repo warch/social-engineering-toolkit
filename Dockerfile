@@ -7,8 +7,6 @@ RUN apt-get update && apt-get install -y \
 	set \
 	--no-install-recommends \
 	&& rm -rf /var/lib/apt/lists/* \
-	;rm -Rf /var/cache \
-	;rm /tmp/* \
 	;apt-get autoremove -y
 
 EXPOSE 80 3000
