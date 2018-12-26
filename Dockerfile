@@ -3,7 +3,7 @@ MAINTAINER Christopher Warmbold (warch)
 
 RUN apt-get update && apt-get install -y \
 	apache2 \ 
-	libapache2-mod-php5 \
+	php \
 	set \
 	--no-install-recommends \
 	&& rm -rf /var/lib/apt/lists/* \
